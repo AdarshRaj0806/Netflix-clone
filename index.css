@@ -1,0 +1,244 @@
+* {
+  margin: 0px;
+  padding: px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+body {
+  background: url(background.jpg);
+  background-size: 1530px 550px;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 0, 1);
+  color: white;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+nav .img img {
+  width: 35%;
+  margin-top: 2px;
+}
+nav .buttons {
+  display: flex;
+  margin-top: 22px;
+}
+.buttons .eng {
+  width: 111px;
+  height: 36px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  font-size: 19px;
+}
+.buttons .sign {
+  width: 90px;
+  height: 40px;
+  background-color: rgb(193, 17, 25);
+  color: white;
+  border-radius: 3px;
+  font-size: 19px;
+  border: none;
+}
+.buttons .eng {
+  margin-inline: 22px;
+}
+.buttons .eng:hover {
+  background-color: transparent;
+}
+.buttons .sign:hover {
+  background-color: transparent;
+  border: 3px solid rgb(193, 17, 25);
+}
+
+/* MAIN */
+
+.main {
+  text-align: center;
+}
+.main h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.main h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.main p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.input {
+  margin-bottom: 120px;
+}
+.main .input button {
+  height: 45px;
+  width: 160px;
+  background-color: rgb(206, 22, 22);
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  margin: 0px 0px 0px 2px;
+  border: none;
+}
+.input input {
+  height: 40px;
+  width: 350px;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  border: 0.5px solid (255, 255, 255, 0.8);
+}
+
+/* First page */
+
+.firstpage {
+  border-top: 4px solid gray;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  justify-content: space-around;
+}
+.firstpage .text h1 {
+  margin: 220px 0px 20px 50px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.firstpage p {
+  font-size: 1.5rem;
+  margin-left: 50px;
+}
+.firstpage img {
+  margin: 100px 60px 100px 0px;
+  height: 370px;
+  width: 650px;
+}
+
+/* SECOND PAGE */
+
+.secondpage {
+  border-top: 4px solid gray;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  justify-content: space-around;
+}
+.text h1 {
+  margin: 220px 0px 20px 50px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.secondpage p {
+  font-size: 1.5rem;
+  margin-left: 50px;
+}
+.secondpage img {
+  margin: 100px 60px 100px -100px;
+  padding-left: 166px;
+}
+
+/* THIRD PAGE */
+
+.thirdpage {
+  border-top: 4px solid gray;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  justify-content: space-around;
+}
+.text h1 {
+  margin: 220px 0px 20px 50px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.thirdpage p {
+  font-size: 1.5rem;
+  margin-left: 50px;
+}
+.thirdpage img {
+  margin: 100px 60px 100px -100px;
+  padding-left: 166px;
+}
+
+/* FOURTH PAGE */
+
+.fourthpage {
+  border-top: 4px solid gray;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  justify-content: space-around;
+}
+.text h1 {
+  margin: 220px 0px 20px 50px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.fourthpage p {
+  font-size: 1.5rem;
+  margin-left: 50px;
+}
+.fourthpage img {
+  margin: 100px 60px 100px -100px;
+  padding-left: 166px;
+}
+
+/* FOOTER START  */
+.buttons h1 {
+  margin-bottom: 20px;
+  border-top: 4px solid gray;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+}
+.buttons button {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 1100px;
+  background-color: rgba(128, 128, 128, 0.307);
+  color: white;
+  border: 5px solid black;
+  font-size: 25px;
+  margin-left: 13%;
+}
+
+/* footer */
+
+.footer {
+  border-top: 4px solid gray;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px;
+}
+.list p,
+h4 {
+  padding: 10px;
+}
+.lower {
+  margin: 0px 0px 70px 480px;
+}
+.lower p {
+  font-size: 20px;
+  margin: 30px 0px 25px 0px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.lower button {
+  height: 45px;
+  width: 160px;
+  background-color: rgb(206, 22, 22);
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  margin: 0px 0px 0px 2px;
+  border: none;
+}
+.lower input {
+  height: 40px;
+  width: 350px;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  border: 0.5px solid (255, 255, 255, 0.8);
+}
